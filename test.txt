@@ -1,3 +1,6 @@
-3
+6
 foo bar
 baz
+wolf
+piano
+bergen

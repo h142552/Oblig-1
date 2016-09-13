@@ -1,7 +1,6 @@
 package no.hib.DAT100;
 
 public class Oppgave4 {
-
 	public static void start(){
 		System.out.println("x i grader\tx i radianer\tsin(x)\t\tcos(x)");
 		System.out.println("------------------------------------------------------");
