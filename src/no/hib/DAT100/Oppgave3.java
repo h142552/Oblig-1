@@ -8,18 +8,18 @@ public class Oppgave3 {
 		In inn = new In();
 		
 		try {
-			Integer x = Integer.parseInt(inn.next());
+			Double x = Double.parseDouble(inn.next());
 			Integer n = Integer.parseInt(inn.next());
 			
-			System.out.println("Produkt med egen metode:  x^n = " + pow1(x, n));
-			System.out.println("Produkt med javas innebygde metode:  x^n = " + pow2(x, n));
+			System.out.println("Produkt med egen metode: " + x + "^" + n + " = " + pow1(x, n));
+			System.out.println("Produkt med javas innebygde metode: " + x + "^" + n + " = " + pow2(x, n));
 
 			if (pow1(x, n) == pow2(x, n))
 				System.out.println("Metodene returnerer samme svar. ");
 		}
 		catch(Exception e){
 			System.out.println("Tall har feil format.");
-			System.out.println(e.getMessage());
+			System.out.println(e);
 		}
 	}
 	
