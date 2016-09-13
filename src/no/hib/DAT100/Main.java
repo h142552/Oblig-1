@@ -14,8 +14,9 @@ public class Main {
 		//Oppgave3.start();
 		
 		// Oppgave 4
-		Oppgave4.start();
+		//Oppgave4.start();
 		
 		// Oppgave 5
+    Oppgave5.start();
 	}
 }
