@@ -11,9 +11,10 @@ public class Main {
 		//Oppgave2.filInn();
 		
 		// Oppgave 3
-		Oppgave3.start();
+		//Oppgave3.start();
 		
 		// Oppgave 4
+		Oppgave4.start();
 		
 		// Oppgave 5
 	}
