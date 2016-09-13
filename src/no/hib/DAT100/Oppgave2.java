@@ -5,10 +5,13 @@ public class Oppgave2 {
     public static void start(){
         In inn = new In();
 
-        //System.out.print("Skriv inn mønster: ");
-        //String search = inn.next();
-        //filInn(search);
+        // 2 c)
+        System.out.print("Skriv inn mønster: ");
+        String search = inn.next();
+        filInn(search);
 
+        // 2 d)
+        System.out.println("\nPrint midterste:");
         printMidterste();
     }
 
